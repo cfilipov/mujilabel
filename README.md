@@ -3,7 +3,6 @@
 > Muji-style label generator
 
 * [Link](https://cfilipov.github.io/mujilabel)
-* [Edit in JSFiddle](https://jsfiddle.net/27jvdenw/40/)
 
 ## Build Setup
 
