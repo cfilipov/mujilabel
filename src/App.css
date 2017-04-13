@@ -1,0 +1,64 @@
+.App {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  display: flex;
+  padding: 20px;
+}
+
+#inputs > input {
+  width: 100%;
+}
+
+#inputs input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-width: 1px;
+}
+
+#preview {
+  flex: 0 0 264px;
+}
+
+#inputs {
+  flex: 1 1 100%;
+}
+
+#preview, #inputs {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+#inputs {
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+  padding: 0 20px 0 20px;
+}
+
+*:focus {
+    outline: none;
+}
+
+#vcard {
+  width: 100%;
+}
+
+#vcard label {
+  padding-right: 1rem;
+  flex: 0 0 auto;
+}
+
+#vcard input {
+  flex: 1 1 100%;
+}
+
+.labeledInput {
+  display: flex;
+}
