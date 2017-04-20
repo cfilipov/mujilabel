@@ -4,15 +4,15 @@ import {
   HashRouter as Router,
   Route
 } from 'react-router-dom'
-import App from './App';
+import Muji from './Muji';
 import withUrlProps from './withUrlProps';
 import './index.css';
 
-const AppRoute = withUrlProps(App);
+const MujiRoute = withUrlProps(Muji);
 
 ReactDOM.render(
   <Router>
-    <Route path="/" component={AppRoute}/>
+    <Route path="/" component={MujiRoute}/>
   </Router>,
   document.getElementById('root')
 );
